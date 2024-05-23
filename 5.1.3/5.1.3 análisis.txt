@@ -1,0 +1,18 @@
+HOMEBANKING: si se escribe bien el usuario y la contraseña permite hacer una transferencia
+
+Análisis
+DATOS DE INGRESO: usuario, cadena de caracteres; contraseña, cadena de caracteres
+DATOS DE SALIDA: 
+si se coloca bien usuario y contraseña: $$$$ (se hizo la transferencia)
+
+VARIABLES
+usuario: cadena de caracteres que ingresa el usuario
+password: cadena de caracteres que ingresa el usuario
+
+CONSTANTES:
+u: usuario preestablecido en el sistema, cadena de caracteres
+p: contraseña preestablecida en el sistema, cadena de caracteres
+
+CONDICION LOGICA:
+si el usuario ingresado es igual al usuario preestablecido y el la password ingresasa es igual a la preestablecida se cumple la condición.
+

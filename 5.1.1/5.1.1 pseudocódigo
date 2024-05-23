@@ -1,0 +1,8 @@
+Algoritmo ingresos_brutos
+	Escribir "ingrese sus ingresos brutos anuales: "
+	Leer ingresosbrutos
+	Si ingresosbrutos>16957968.71  Entonces
+		Escribir "DEBES ANOTARTE COMO RESPONSABLE INSCRIPTO"
+	Fin Si
+	Escribir "fecha de actualizacion 1/1/24"
+FinAlgoritmo

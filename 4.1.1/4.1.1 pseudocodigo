@@ -1,0 +1,14 @@
+Algoritmo promedio
+	Escribir 'ingrese la nota_1'
+	Leer nota_1
+	Escribir 'ingrese la nota_2'
+	Leer nota_2
+	Escribir 'ingrese la nota_3'
+	Leer nota_3
+	Escribir 'ingrese la nota_4'
+	Leer nota_4
+	Escribir 'ingrese la nota_5'
+	Leer nota_5
+	mean<-(nota_1+nota_2+nota_3+nota_4+nota_5)/5
+	Escribir "su promedio es: ",mean
+FinAlgoritmo

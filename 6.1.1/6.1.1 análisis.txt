@@ -1,0 +1,12 @@
+Mostrar los números desde el 0 al número solicitado al usuario (input)
+
+Análisis
+
+DATOS DE ENTRADA: un numero cualquiera, int
+DATOS DE SALIDA: los números desde el 0 hasta el numero de entrada, int
+
+VARIABLES
+num: numero límite superior, int
+i: contador de ciclos, se inicializa en 0; int
+
+Como la consigna pide que se muestre el 0 primero debe haber un print de i inicializado en 0 y luego debe aumentar de a uno por ciclo.

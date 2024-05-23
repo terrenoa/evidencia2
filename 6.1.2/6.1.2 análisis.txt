@@ -1,0 +1,15 @@
+Mostrar sólo los números pares desde 0 hasta el número ingresado (input). 
+Nota: para saber si un número es par hacer i % 2 == 0)
+
+Análisis
+
+DATOS DE ENTRADA: un numero cualquiera, int
+DATOS DE SALIDA: los números pares desde el 0 hasta el numero de entrada, int
+
+VARIABLES
+num: numero límite superior, int
+i: contador de ciclos, se inicializa en 0; int
+
+El 0 es par luego siempre tiene que verse por pantalla
+para los otros números es necesario anidar un condicional dentro del ciclo repetitivo para poder verificar si i es par o no en cada repetición del ciclo,
+si es par se muestra en pantalla, si no lo es no se muestra

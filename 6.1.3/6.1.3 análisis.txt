@@ -1,0 +1,13 @@
+Pedir que el usuario ingrese (input) nombre de personas y mostrarlos hasta que el valor de lo que ingresa sea “fin”
+
+Análisis
+DATOS DE ENTRADA: nombres nuevos, cadena de caracteres
+DATOS DE SALIDA: nombres, arreglo de cadena de caracteres
+
+VARIABLES:
+nombre: arreglo donde se guardan los nombres, se inicializa vacío
+nuevo_nombre: variable auxiliar donde se guarda el nuevo nombre
+
+El ciclo se tiene que ejecutar una vez y se repite mientras nuevo_nombre sea disntinto de fin
+Si es fin se corta el ciclo
+Si no es fin se agrega el nombre al arreglo y se muestra por pantalla el arreglo

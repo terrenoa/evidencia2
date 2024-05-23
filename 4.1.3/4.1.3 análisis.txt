@@ -1,0 +1,20 @@
+Un hincha de fútbol desea conocer la cantidad de puntos que su
+equipo lleva acumulados en el campeonato, para ello recibe cada semana la
+información de la cantidad total de partidos, desde el inicio del campeonato, que
+el equipo ha perdido, ha empatado y ha ganado. Por cada partido empatado
+recibe un punto, por cada partido ganado tres puntos y por los perdidos cero
+puntos.
+
+Análisis
+DATOS DE ENTRADA: partidos ganados, int; partidos empatados, int; partidos perdidos, int.
+DATOS DE SALIDA: puntos totales, int
+
+VARIABLES:
+ganados: partidos ganados, int
+perdidos: partidos perdidos, int
+empatados: partidos empatados, int
+
+CONSTANTES:
+puntos por partido ganados: 3
+puntos por partido empatados: 1
+puntos por partido perdido: 0

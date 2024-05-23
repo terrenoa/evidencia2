@@ -1,0 +1,11 @@
+Algoritmo numeros2
+	Escribir 'Ingrese un número: '
+	Leer num
+	i <- 0
+	Mientras i<num + 1 Hacer
+		Si i MOD 2 = 0 Entonces
+			Escribir i
+		Fin Si
+		i <- i+1
+	FinMientras
+FinAlgoritmo

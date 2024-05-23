@@ -1,0 +1,15 @@
+Algoritmo homebanking
+	u<-"usuario"
+	p<-"password"
+	Escribir "Ingrese su usuario: "
+	Leer usuario
+	Escribir "Ingrese su constraseña: "
+	Leer password
+	Si u=usuario Y p=password Entonces
+		Escribir "Cuanto dinero quiere transferir: $"
+		Leer aux
+		Escribir "$$$$$"
+	Fin Si
+	
+	
+FinAlgoritmo

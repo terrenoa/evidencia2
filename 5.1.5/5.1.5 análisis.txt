@@ -1,0 +1,18 @@
+Una despensa de barrio vende la leche de vaca entera de litro a 1000 pesos la unidad. Si el cliente compra más de 12  unidades (y hasta 24 unidades), el costo tiene un descuento del 10%. Si compra más de 24 unidades, el descuento es del 15%. Además posee la promoción a los jubilados. La promoción de jubilados es sumarle un 10% de descuento (si posee otros descuentos, se suma los descuentos). Desarrolle una solución algorítmica para saber cuento debe pagar el cliente.
+
+Análisis
+
+DATOS DE ENTRADA: cantidad de litros de leche, float; es jubilado, bool
+DATOS DE SALIDA: precio final de la leche con descuentos aplicados, float
+
+VARIABLES
+cant_leche: cantidad de litros de leche, float
+
+jubilado: si es jubilado si; si no es, no
+
+descuento: inicializa en 1, 0.9 si se compran entre 12 y 24 litros de leche, 0.85 si se compran mas de 24 litros de leche, descuento-0.1 si es jubilado
+
+precio_final: precio final con los descuentos aplicados -> precio final = litros de lecge * precio * descuento
+
+CONSTANTES:
+precio_lehce: 1000, preestablecido por la consigna

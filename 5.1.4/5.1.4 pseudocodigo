@@ -1,0 +1,12 @@
+Algoritmo compras
+	Escribir "Te gusta mucho? ingrese si o no: "
+	Leer gusto
+	Escribir "Esta a muy buen precio? ingrese si o no:"
+	Leer precio
+	Si gusto = "si" O precio = "si" Entonces
+		Escribir "compralo"
+	SiNo
+		Escribir "NO LO COMPRES"
+	Fin Si
+	
+FinAlgoritmo

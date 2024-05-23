@@ -1,0 +1,31 @@
+Algoritmo promedio
+	Escribir "ingrese la cantidad de alumnos que rindieron el examen: "
+	Leer cant_alumnos
+	Dimension notas[cant_alumnos]
+	contador <-1
+	Mientras contador <= cant_alumnos Hacer
+		Escribir "ingrese la nota del alumno ", contador
+		Leer notas[contador]
+		contador <- contador + 1
+	Fin Mientras
+	Para i <- 1 Hasta cant_alumnos Con Paso 1 Hacer
+        suma <- suma + notas[i]
+	Fin Para
+	promed <- suma/cant_alumnos
+	Si promed >= 8 Entonces
+        Escribir "el promedio es: ", promed
+        Escribir "el promedio es elevado"
+    Sino
+        Si promed > 6 y promed < 8 Entonces
+            Escribir "el promedio es: ", promed
+            Escribir "el promedio es aceptable"
+        Sino
+            Escribir "el promedio es: ", promed
+            Escribir "el promedio es bajo"
+        FinSi
+    FinSi
+	
+
+	
+	
+FinAlgoritmo

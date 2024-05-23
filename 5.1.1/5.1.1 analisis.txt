@@ -1,0 +1,13 @@
+El programa le indica a una persona si tiene que pasar de monotributo a responsable inscripto
+
+Análisis
+DATOS DE INGRESO: ingresos brutos anuales, float
+DATOS DE SALIDA: "debes cambiarte a responsable inscripto", cadena de caracteres
+
+VARIABLES:
+ingresosbrutos: ingresos burtos anuales, float
+CONSTANTES:
+limite de monotributo al 1/1/24: 16957968.71, float
+CONDICION LOGICA:
+si es mayor al limite se tiene que anotar como RRII
+

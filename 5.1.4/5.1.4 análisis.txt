@@ -1,0 +1,12 @@
+Algoritmo que te permite decidir si comprar algo o no
+
+Análisis 
+DATOS DE ENTRADA: si tiene buen precio o no; si gusta mucho o no
+DATOS DE SALIDA: comprar o no comprar
+
+VARIABLES:
+gusta: Te gusta mucho ingrese si o no; cadena de caracteres
+precio: Esta a muy buen precio? ingrese si o no; cadena de caracteres
+
+CONDICION LOGICA:
+si tiene buen precio o si gusta mucho se compra, si no, no se compra

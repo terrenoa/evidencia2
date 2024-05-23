@@ -1,0 +1,12 @@
+Algoritmo metro_cuadrado
+	Escribir "ingrese el precio por metro cuadrado"
+	Leer precio_metro
+	Escribir "ingrese el ancho de la pared"
+	Leer ancho
+	Escribir "ingrese el largo de la pared"
+	Leer largo
+	metros_totales <- ancho * largo
+	presupuesto <- metros_totales * precio_metro
+	Escribir "el presupuesto de la obra es: $",presupuesto
+	
+FinAlgoritmo

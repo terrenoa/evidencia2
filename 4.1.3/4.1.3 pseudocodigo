@@ -1,0 +1,12 @@
+Algoritmo puntos
+	Escribir 'ingrese la cantidad de partidos ganados: '
+	Leer ganados
+	Escribir 'ingrese la cantidad de partidos perdidos: '
+	Leer perdidos
+	Escribir 'ingrese la cantidad de partidos empatados: '
+	Leer empatados
+	points<-(3 * ganados) + (2 * empatados) + (0 * peridos)
+	Escribir "Puntos totales: ", points
+	
+	
+FinAlgoritmo

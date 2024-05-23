@@ -1,0 +1,21 @@
+Algoritmo leche
+	precio <- 1000
+	descuento <- 1
+	Escribir 'Cuantos litros de leche va a llevar? '
+	Leer cant_leche
+	Si (cant_leche>12 Y cant_leche<=24) Entonces
+		descuento <- 0.9
+	SiNo
+		Si (cant_leche>24) Entonces
+			descuento <- 0.85
+		FinSi
+	FinSi
+	Escribir 'Es jubilado? ingrese si o no: '
+	Leer jubilado
+	Si jubilado='si' Entonces
+		descuento <- descuento-0.1
+		Escribir 'Felicidades! accede a descuento de jubilado'
+	FinSi
+	precio_final <- cant_leche*precio*descuento
+	Escribir 'Total a pagar: $', precio_final
+FinAlgoritmo

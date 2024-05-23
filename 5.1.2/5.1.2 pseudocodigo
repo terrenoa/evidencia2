@@ -1,0 +1,10 @@
+Algoritmo apruebo
+	Escribir "Si estudio ingrese 1, si no estudio ingrese 0: "
+	Leer estudio
+	Si estudio = True Entonces
+		Escribir "Felcidades, va a aprobar!"
+	SiNo
+		Escribir "Lo sineto, no va a probar"
+	Fin Si
+	
+FinAlgoritmo

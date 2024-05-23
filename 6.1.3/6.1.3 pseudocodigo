@@ -1,0 +1,20 @@
+Algoritmo nombres
+	Dimension nombr(100)  // Declaración de un arreglo para almacenar los nombres
+	nuevo_nombre = ""
+	aux<-1
+	
+	Mientras nuevo_nombre <> "fin"
+		
+		Escribir "Ingrese un nombre o fin para terminar: "
+		Leer nuevo_nombre
+		Si nuevo_nombre <> "fin" Entonces
+			nombr[aux] = nuevo_nombre
+			Escribir nombr(1)
+			Escribir nombr(2)
+			Escribir nombr(3)
+		FinSi
+		aux <- aux + 1
+	FinMientras
+
+	
+FinAlgoritmo

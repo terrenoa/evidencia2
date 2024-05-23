@@ -1,0 +1,13 @@
+Algoritmo para predecir si un alumno va a aprobar
+
+Análisis
+DATOS DE INGRESO: el alumno estudio?, bool
+DATOS DE SALIDA: aprobara, no aprobara; cadena de caracteres
+
+VARIABLES:
+estudio: si estudio ingrese 1 si no estudio ingrese 0, bool
+CONSTANTES:
+-
+CONDION LOGICA:
+si estudia aprueba, si no estudia no aprueba 
+
